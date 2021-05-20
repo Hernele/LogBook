@@ -1,0 +1,15 @@
+SIRL
+Sesión 2021/01/12
+GitHub, entorno gráfico de desarrollo colaborativo para encontrar software de código 
+abierto, alojar proyectos utilizando el sistema de control de versiones Git.
+Yandex - Navegador ruso.
+Baidu - Navegador chino.
+Instalar Logisim en la máquina SW09 -> 1. Descargar de GitHub el software .deb
+				       2. En la terminal: "sudo dpkg -i log"
+				       3. Buscará el archivo en descargas del equipo.
+				       4. Terminal: "sudo dpkg -i logisim-evolution_3.4.1-1_amd64.deb"
+				       5. Se instalará el paquete de Logisim.
+				       6. Terminal "sudo apt-get update" para actualizarlo.
+				       7. Descarga la actualización y se instala.
+
+Descargar e instalar el Add-on en FireFox de ImTranslator.

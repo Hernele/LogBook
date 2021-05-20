@@ -1,0 +1,7 @@
+
+
+SIRL Parte 2021/01/21 Instale Digital porque ha corregido errores de Logisim. Para ello, deberá instalar Java 
+mediante el comando "sudo apt-get install default-jdk". Usamos el comando "java --version" para verificar si Java está 
+instalado. Luego use "sudo apt-get install default-jre" para instalar el entorno Para abrir Digital, tenemos que ir a la 
+carpeta / home / downloads donde se descarga Digital. En esta carpeta tendremos que abrir un terminal e introducir el 
+comando "java -jar Digital.java" para ejecutarlo.

@@ -1,0 +1,13 @@
+Jueves 24/09/2020                              
+
+Modelo del Ordenador
+Pentium dual core CPU 2.600GHz   1243.257 MHz of frequency   L2 CACHE 2048 KB
+G31M-Gs
+2x2GB 800
+1X500GB
+
+Entramos a clase, cogimos nuestras maquinas y empezamos a investigar una a una cual funcionaba y cual no,
+también nuestro profesor mateo nos insertó en nuestro propio Pen Drive un programa llamado XUBUNTU para 
+poder arrancar el ordenador, la investigación de estas, nos llevo toda la clase ya wue tuvimos que desmontar
+todas las maquinas y hacerles foto a los componentes, a continuacion añadire algunas de las imagenes en la
+carpeta de fotos.

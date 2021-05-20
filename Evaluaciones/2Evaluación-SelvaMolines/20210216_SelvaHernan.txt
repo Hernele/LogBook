@@ -1,0 +1,3 @@
+SIRL
+Sesión 2021/02/11
+Terminar el circuito del contador planteado en la clase

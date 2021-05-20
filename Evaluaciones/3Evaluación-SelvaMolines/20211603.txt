@@ -1,0 +1,5 @@
+16/3/21
+
+Tuve problemas para intentar restaurar el sistema operativo con clonezilla.
+
+Por su parte en general empezamos a ver el Git

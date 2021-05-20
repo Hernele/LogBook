@@ -1,0 +1,26 @@
+Maryelh@LAPTOP-JAQ16CQ2 MINGW64 ~/Dropbox/Mi PC (LAPTOP-JAQ16CQ2)/Desktop/personalprofile (master)
+$ git add .
+
+Maryelh@LAPTOP-JAQ16CQ2 MINGW64 ~/Dropbox/Mi PC (LAPTOP-JAQ16CQ2)/Desktop/personalprofile (master)
+$ git commit -m "Actualizando index"
+[master 17862ca] Actualizando index
+ 4 files changed, 53 insertions(+), 1 deletion(-)
+ create mode 100644 image/NIA_closeup.jpg
+ create mode 100644 image/NIA_mediumshot.JPG
+ create mode 100644 people/Maria.html
+
+Maryelh@LAPTOP-JAQ16CQ2 MINGW64 ~/Dropbox/Mi PC (LAPTOP-JAQ16CQ2)/Desktop/personalprofile (master)
+$ git push -u origin master
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 1.23 MiB | 801.00 KiB/s, done.
+Total 8 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/maryelh170800/personalprofile.git
+   3da2544..17862ca  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Maryelh@LAPTOP-JAQ16CQ2 MINGW64 ~/Dropbox/Mi PC (LAPTOP-JAQ16CQ2)/Desktop/personalprofile (master)
+$

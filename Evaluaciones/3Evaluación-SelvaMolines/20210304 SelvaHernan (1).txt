@@ -1,0 +1,36 @@
+04/03/2021      Mateo.
+
+Microcontrolador.
+Buscar información PIC16F876-04I/SO
+TIPO i INDUSTRAIL DE TEMPERATURA.
+Siempre codigo año mes semanas.
+SO caracteristicas de temperatura.
+No puedes descubiri lo que hay guardado, porque no se puede 
+pero si se puede borrar y guardar.
+no recomendado para nuevos diseños.
+
+CHIP 24LC256: es una memoria programable, lee y carga los datos 
+esta consumiendo siempre por eo se agota la pila
+
+MIPS millones de transiciones por segundo 
+UART unidad sincorna.
+Un registro de emplazamineto: 
+
+I2C son circuitos interintegrado que sirven para 
+para la comunicaciones entre diferentes partes de un circuito. 
+
+
+CH son canales de ADC Input 
+10 bit son 1024
+11ch, 10-bit. No lo hace a la vez es un unico convertidor pero tiene 11 canales 
+
+USART-UART
+	
+Puedes estar tranmisitnedo mucho informacion
+
+115000baudios pueden ir los ratones
+
+Ultra Low-Power Wake-up es cuando se duerme el chip, para ahorrar la energia, tiene que ser cordes con un bucle.
+Porque hay varios comparadores, porque son comparadores analógicos.
+Fixed 0.6 Vref: tension de variación.
+SR Latch Mode: un latche es una memoria, es un cierrra y abre que retiene lo que hace

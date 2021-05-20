@@ -1,0 +1,5 @@
+4/3/21
+
+Estuvimos viendo los elementos de diversos servidores y analizamos, entre otros, las características del microchip PIC16F876-04/SO.
+
+También continuamos viendo pdf's de conceptos básicos de redes.

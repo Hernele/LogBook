@@ -1,0 +1,15 @@
+20201008
+Hernán Selva Molines
+
+Hoy hemos entrado a clase, hemos puesto un plastico al teclado por razones de seguridad, he cogido mi PC para instalar definitivamente el XUBUNTU de una vez por todas,
+una vez ya instalado, procedemos a la post instalación de XUBUNTU 18.04 y otros, para ello iniciamos nuestro
+navegador (mozzilla firefox) y entramos en Aules, accedemos nuestros cursos, en este caso a SIRL, pichamos en
+pizarra, encontramos un LINK
+"https://www.diversidadyunpocodetodo.com/debian-buster-10-guia-configuracion-instalacion-software/"
+para realizar los 20 pasos que harán que tu/nuestro sistema de Xubuntu vaya más fluido
+entramos al link y comenzamos a realizar los pasos, el primer paso es actualizar el Software del sistema para poder
+alcanzar nuestro objetivo que es poder instalar el programa GParted, una vez instalado el nuevo Software nos vamos
+a Software, clikeamos en ir de compras y busamos en el navegador el programa GPARTED para emezar a descargarlo, una
+vez instalado el GPARTED lo iniciamos, este programa lo que hace es que te da la opción de dividir o repartir la 
+información en tu disco duro de la manera que tu quieras.
+

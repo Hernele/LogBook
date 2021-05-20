@@ -1,0 +1,16 @@
+16-03-2021                 MATEO
+
+Ulitmos servidores de windows:
+      - Windows server, versión 1809   ---> 13/11/2018
+      - Windows server 2016     1607   ---> 15/10/2016
+      - Windows server más reciente es el 2019 
+
+Instalar windows con sonido, es decir grabar cualquier sonorización de cualquier mensaje...
+Instalar windows junto a xubuntu 
+Control de version estrcuturar los archivos, decirme que lestras a cambiado en un archivo 
+GIT te permite trabajar de forma conectada pero cada uno en su casa.
+Permite mantern el dia y se hay una equivocación nos permite volver atrás (trabaja con ramas).
+Si no es distribuido es centralizado. 
+Instalar GIT en xubuntu 
+en windows es una tonteria 
+

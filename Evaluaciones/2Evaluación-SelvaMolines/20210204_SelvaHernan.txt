@@ -1,0 +1,3 @@
+SIRL
+Sesión 2021/02/04
+Crear circuito en Logisim-evolution doble_extractor_transcodificador.

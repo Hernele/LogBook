@@ -1,0 +1,16 @@
+20202020  SIRL
+
+Antes de nada hay que tener instalado gparted y virtualbox y Hacer copias de seguridad.  También Mateo me ha enseñado hacer una captura de pantalla
+ALT + IMPRIMIR hacemos estas capturas por la economía del espacio, la compresión es mas perfecta las imagenes .jpg es destructivo genera moralla, 
+el .png te respeta todo, no hay deformación
+no hay efecto muaré debido a los pixeles. imagenes de 3 a 4 megas.
+
+Formatear con clonecilla live, virtual box montada funvipne haver generado una maquina virtual
+no tiene que ser de linux entorno linux permite capturar todas las patallas
+hay que preparar otro modelo extension Pack instalada y antes de borrar xubuntu hay que hacer
+una copia de seguridad
+He actualizado el software de UBUNTU de la versión 18.04 a la versión 20.04 
+Hemos actualizado esta versión por que és mas moderna y mas faciles de manejar y por que nos ha salido mal la partición 
+(no tener separado HOME del Raínz, del root)
+
+Ritchard Stand (nate) video youtube entra para examen ENTIENDE LINUX Y E SOFTWARE LIBRE DE UNA VEZ

@@ -1,0 +1,25 @@
+20201022
+
+Ya instalado el Ubuntu 20.04, me dispongo ha revisar o comparar las fotos del GParted de la 18.04, para ello 
+entramos a aules->Pizzara--> y comparamos las fotos. Lo que queremos hacer con GParted es que Padre se quede
+con todo excdpto con HOME, HOME la queremos a parte
+comprobamos que virtualbox funciona
+
+que archivos secretos hay que cambiar el nombre de la maquina, los cuales los tene escondidos el sistema,
+CAMBIAR EL NOMBRE DE LA MAQUINA EN UBUNTU
+
+Lo que queremos saber y aprender en esta primera evaluación es:
+Instalar, sacar y restaurar copias y resolver problemas
+ahora vamos ah hacer una copia del sistema, 
+para ello, tenemos que descargarnos el CLONEZILLA, se abre como un disco de arranque, un dato importante es que
+BOOT--> ARRANQUE     
+hemos traido un paquete .xp para abrirlo en ORACLE_virtualbox es un paquete que simula el disco
+de arranque del windows 10, ya tenemos la maquina .xp ahora la abrimos en virtualvox, un archico .vbox luego
+varias de logs y de snapshots se llama EKISPE
+previsto montar el cluster de ordenadores,
+lanzamos .xp en lunix, mos ha dado fallo, tenemos que quitar la .iso El problema era que 
+concepto IMPORTANTE: CONTENEDORES es lo que se esta negociando en la nube
+
+
+Esto es
+alumno--> contraseña: cavanilles

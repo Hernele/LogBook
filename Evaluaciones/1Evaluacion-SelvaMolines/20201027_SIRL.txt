@@ -1,0 +1,62 @@
+20201030
+
+Lo previsto para hoy es realizar el particionado, instalación del sistema base, post instalación y
+extracción de vuestra copia de seguridad
+
+Instalamos CLONEZILLA en nuestra torre para poder realizar nuestra copia de seguridad, 
+editamos sus opciones
+buscar en internet como sacar el /home del padre 
+
+Tarea SIRL:
+
+Razones que justifican la copia de seguridad.
+Conocer y seleccionar las herramientas y medios de soporte.
+Conocer el funcionamiento y usos de los comandos dd y tar.
+Realizar clonación, salvaguarda y restauración mediante el clonezilla.
+
+CLONACIONES QUE TENEMOS QUE HACER:
+
+-Copia de seguridad de la estructura de participones y todas ellas (lparticiones del sistema y usuario) del 
+disco SSD a un fichero imagen hacia una partición disponible del disco duro mecánico (magnético).
+
+-Copia de seguridad solo de la partición del sistema (/) de un disco SSD a un fichero imagen en una de 
+las dos particiones disponibles del disco mecánico. Con el programa gparted borraremos la partición del 
+sistema (/) y utilizando el fichero imagen generado en el punto anterior realizaremos una restauración.
+
+-Clonación del disco duro completo SSD a otro disco de la misma capacidad o mayor capacidad suministrado 
+por el profesor. Arrancar con el nuevo disco duro y comprobar que funciona perfectamente. Realizar una 
+comparación de tiempo empleado entre clonar disco y obtener + restaurar imagen de disco.
+
+-Clonado hacia disco destino de menor capacidad. Este caso es habitual cuando se cambia de fabricante, no te 
+sorprendas si no cabe la imagen en el nuevo disco mecánico. Como posible solución, reducir la última 
+partición del origen antes de extraer la imagen o mejor aún, no apurar la capacidad del disco.
+
+-Experimental: Saca imagen clonezilla completa del disco de una máquina virtual. Restaura una imagen 
+clonezilla en una máquina virtual. (Ya sé que copiar vdi es factible). ¿Sirve una imagen del disco 
+virtual para un máquina real? ¿Y viceversa? (Quizás aparezcan problemas de controladores).
+
+Después de realizar la copia de seguridad con el clonezilla, tenemos que crear una partición, le ponemos en
+en la etiqueta   /home
+
+
+
+Como borrar el disco:
+1.Preparar un pendrive arrancable desde una imagen ISO (adicionalmente un CD/DVD).
+2.Limpiar discos fijos de forma rápida para recibir nuevos sistemas operativos y datos. Borrado seguro.
+3.Crear y modificar particiones de diferente tipo y tamaño, replanteando la estructura según necesidad, 
+atendiendo a la geometría del disco, sin causar desastres.
+4.Comprender el concepto de "montaje del dispositivo" sobre el sistema de archivos del sistema operativo.
+5.Manejar un editor de texto simple, y ciertos comandos iniciales en Terminal, tanto como usuario normal como 
+usuario con privilegios elevados (utiliza sudo porque el superusuario root está desconectado en Gparted Live)
+6.Cambiar la configuración del teclado e idioma para que los símbolos se correspondan a las teclas pulsadas 
+(conceptos de localización cultural y distribución de teclas layout).
+7.Valorar las ventajas de un sistema Live, del arranque en disco virtual (modo to RAM), y sufrir sus 
+consecuencias.
+8.Enfrentarse a problemas de arranque Gparted-Live debidos a fallos en disco y memoria, al adaptador de 
+gráficos..
+9.Rescatar información y solucionar problemas de uso en memorias pendrive debido a fallos del formato lógico.
+
+El sistema no le deja asique hay que desmntarlo
+Para ello abrir Gparted, a y x QUE ES? son un unix de hace muchos años, 
+
+   

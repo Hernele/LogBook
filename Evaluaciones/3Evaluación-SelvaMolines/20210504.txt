@@ -1,0 +1,5 @@
+4/5/21
+
+inicialmente intnté realizar la instalación de Windows 10 con partición GPT pero no lo conseguí.
+
+Seguidamente continué con el repositorio de GitHub y Git

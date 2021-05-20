@@ -1,0 +1,3 @@
+SIRL
+Sesión 2021/02/09
+Con Logisim Digital empezar a hacer el reloj para el contador

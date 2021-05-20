@@ -1,0 +1,3 @@
+SIRL
+Sesión 2021/01/28
+Seguir haciendo los ejercicios de Logisim-evolution y comprobar ell test_1 con el reloj.

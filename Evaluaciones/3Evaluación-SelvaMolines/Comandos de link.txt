@@ -1,0 +1,105 @@
+Comandos de git 
+
+
+Git Init.
+    - Git inicial.
+
+git remote add origin link
+   -  para seleccionar el link de la pagina 
+
+
+
+
+Ejercicio de logbook github:
+
+Maryelh@LAPTOP-JAQ16CQ2 MINGW64 ~/Dropbox/Mi PC (LAPTOP-JAQ16CQ2)/Desktop/Logbook
+$ git init
+Initialized empty Git repository in C:/Users/marye/Dropbox/Mi PC (LAPTOP-JAQ16CQ2)/Desktop/Logbook/.git/
+
+Maryelh@LAPTOP-JAQ16CQ2 MINGW64 ~/Dropbox/Mi PC (LAPTOP-JAQ16CQ2)/Desktop/Logbook (master)
+$ git add files
+fatal: pathspec 'files' did not match any files
+
+Maryelh@LAPTOP-JAQ16CQ2 MINGW64 ~/Dropbox/Mi PC (LAPTOP-JAQ16CQ2)/Desktop/Logbook (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "1\302\272EVA_El-Harrak.txt/"
+        "2\302\272EVA_El-Harrak.txt/"
+        "3\302\272EVA_El-Harrak.txt/"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Maryelh@LAPTOP-JAQ16CQ2 MINGW64 ~/Dropbox/Mi PC (LAPTOP-JAQ16CQ2)/Desktop/Logbook (master)
+$ git add <^C
+
+Maryelh@LAPTOP-JAQ16CQ2 MINGW64 ~/Dropbox/Mi PC (LAPTOP-JAQ16CQ2)/Desktop/Logbook (master)
+$ git add <1\302\272EVA_El-Harrak.txt/>
+bash: syntax error near unexpected token `newline'
+
+Maryelh@LAPTOP-JAQ16CQ2 MINGW64 ~/Dropbox/Mi PC (LAPTOP-JAQ16CQ2)/Desktop/Logbook (master)
+$ git remote add origin https://github.com/maryelh170800/LogBook.git
+
+Maryelh@LAPTOP-JAQ16CQ2 MINGW64 ~/Dropbox/Mi PC (LAPTOP-JAQ16CQ2)/Desktop/Logbook (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "1\302\272EVA_El-Harrak.txt/"
+        "2\302\272EVA_El-Harrak.txt/"
+        "3\302\272EVA_El-Harrak.txt/"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Maryelh@LAPTOP-JAQ16CQ2 MINGW64 ~/Dropbox/Mi PC (LAPTOP-JAQ16CQ2)/Desktop/Logbook (master)
+$ git add <1\302\272EVA_El-Harrak.txt/>
+bash: syntax error near unexpected token `newline'
+
+Maryelh@LAPTOP-JAQ16CQ2 MINGW64 ~/Dropbox/Mi PC (LAPTOP-JAQ16CQ2)/Desktop/Logbook (master)
+$ git add < 1\302\272EVA_El-Harrak.txt/ >
+bash: syntax error near unexpected token `newline'
+
+Maryelh@LAPTOP-JAQ16CQ2 MINGW64 ~/Dropbox/Mi PC (LAPTOP-JAQ16CQ2)/Desktop/Logbook (master)
+$ git add +
+fatal: pathspec '+' did not match any files
+
+Maryelh@LAPTOP-JAQ16CQ2 MINGW64 ~/Dropbox/Mi PC (LAPTOP-JAQ16CQ2)/Desktop/Logbook (master)
+$ git add *
+
+Maryelh@LAPTOP-JAQ16CQ2 MINGW64 ~/Dropbox/Mi PC (LAPTOP-JAQ16CQ2)/Desktop/Logbook (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   "1\302\272EVA_hernan.txt/mateo 13 octubre.txt"
+        new file:   "1\302\272EVA_hernan.txt/mateo 15 octubre.txt"
+        new file:   "1\302\272EVA_hernan.txt/mateo 29 octubre.txt"
+        new file:   "1\302\272EVA_hernan.txt/mateo dia 1 octubre.txt"
+        new file:   "1\302\272EVA_hernan.txt/mateo dia 27 octubre.txt"
+        new file:   "1\302\272EVA_hernan.txt/mateo dia 3 noviembre.txt"
+        new file:   "2\302\272EVA_hernan.txt/02-02-2021.txt"
+        new file:   "2\302\272EVA_hernan.txt/09-02-2021.txt"
+        new file:   "2\302\272EVA_hernan.txt/12-01-2021.txt"
+        new file:   "2\302\272EVA_hernan.txt/15-12-2020.txt"
+        new file:   "2\302\272EVA_hernan.txt/16-02-2021.txt"
+        new file:   "2\302\272EVA_hernan.txt/19-01-2021.txt"
+        new file:   "3\302\272EVA_hernan.txt/04-03-2021.txt"
+        new file:   "3\302\272EVA_hernan.txt/16-03-2021.txt"
+        new file:   "3\302\272EVA_hernan.txt/22-04-2021.txt"
+        new file:   "3\302\272EVA_hernan.txt/descubrimiento de m\303\241quinas.txt"
+
+
+Maryelh@LAPTOP-JAQ16CQ2 MINGW64 ~/Dropbox/Mi PC (LAPTOP-JAQ16CQ2)/Desktop/Logbook (master)
+$
+
+

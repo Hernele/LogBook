@@ -1,0 +1,68 @@
+user@debian:~$ ls
+gparted.jpeg
+user@debian:~$ sudo mkdir /mnt/pen
+user@debian:~$ sudo mkdir /mnt/pen /dev/sdc1
+mkdir: cannot create directory ‘/mnt/pen’: File exists
+mkdir: cannot create directory ‘/dev/sdc1’: File exists
+user@debian:~$ sudo mount /dev/sdc1 /mnt/pen
+mount: /mnt/pen: /dev/sdc1 already mounted on /run/live/medium.
+user@debian:~$ sudo cp gparted.jpeg /mnt/pen/hernan-etructura.jpeg
+user@debian:~$ ls -la /mnt/pen
+total 48
+drwxr-xr-x 2 root root    60 nov 17 17:25 .
+drwxr-xr-x 1 root root    60 nov 17 17:21 ..
+-rw-r--r-- 1 root root 46014 nov 17 17:25 hernan-etructura.jpeg
+user@debian:~$ sudo mkdir /mnt/datos
+user@debian:~$ sudo mount /dev/sdb1 /mnt/datos
+user@debian:~$ sudo cp gparted.jpeg hernan/captura.jpeg
+cp: cannot create regular file 'hernan/captura.jpeg': No such file or directory
+user@debian:~$ sudo cp gparted.jpeg hernan-captura.jpeg
+user@debian:~$ ls /mnt/ datos
+ls: cannot access 'datos': No such file or directory
+/mnt/:
+datos  pen
+user@debian:~$ ls /mnts Datoss
+ls: cannot access '/mnts': No such file or directory
+ls: cannot access 'Datoss': No such file or directory
+user@debian:~$ ls /mnts Datos
+ls: cannot access '/mnts': No such file or directory
+ls: cannot access 'Datos': No such file or directory
+user@debian:~$ ls /mnt Datos
+ls: cannot access 'Datos': No such file or directory
+/mnt:
+datos  pen
+user@debian:~$ ls /mnt/Datos
+ls: cannot access '/mnt/Datos': No such file or directory
+user@debian:~$ ls /mnt/datos
+user@debian:~$ ls
+gparted.jpeg  hernan-captura.jpeg
+user@debian:~$ sudo mv hernan-captura.jpeg /mnt/datos/
+user@debian:~$ ls /mnt/datos
+hernan-captura.jpeg
+user@debian:~$ sudo mv hernan-captura.jpeg /mnt/pen
+mv: cannot stat 'hernan-captura.jpeg': No such file or directory
+user@debian:~$ sudo mv /mnt/datos/hernan-captura.jpeg /mnt/pen
+user@debian:~$ ls /mnt/datos
+user@debian:~$ ls /mnt/pen
+hernan-captura.jpeg  hernan-etructura.jpeg
+user@debian:~$ sudo mv h* /mnt/datos
+mv: cannot stat 'h*': No such file or directory
+user@debian:~$ sudo mv h* /mnt/datos/
+mv: cannot stat 'h*': No such file or directory
+user@debian:~$ sudo mv h
+mv: missing destination file operand after 'h'
+Try 'mv --help' for more information.
+user@debian:~$ cd /mnt/pen
+user@debian:/mnt/pen$ ls
+hernan-captura.jpeg  hernan-etructura.jpeg
+user@debian:/mnt/pen$ sudo mv hernan-etructura.jpeg /mnt/datos
+user@debian:/mnt/pen$ ls /mnt/datos
+hernan-etructura.jpeg
+user@debian:/mnt/pen$ sudo mv hernan-captura.jpeg /mnt/datos
+user@debian:/mnt/pen$ ls /mnt/datos
+hernan-captura.jpeg  hernan-etructura.jpeg
+user@debian:/mnt/pen$ ls /mnt/datos
+hernan-captura.jpeg  hernan-etructura.jpeg
+user@debian:/mnt/pen$ sudo nano /hernan proceso
+user@debian:/mnt/pen$ sudo nano /hernan proceso
+user@debian:/mnt/pen$ sudo nano /mnt/datos/hernan-proceso.txt

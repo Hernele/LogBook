@@ -1,0 +1,56 @@
+Mateo 27/10/20202
+
+Actualización del SO Ubuntu 20.04
+Master but record: Es una manera que tienen los fabricantes de permitir particiones de la superficie del disco 
+toda la cantidad en distintos trozos simulando discos distintos, es el mismo disco pero como se aclaran los sitemas operativos 
+con el hardware hacen una abstracción de lo que hay en el hardware y le indican a los programadores 
+que ya tienen un disco estandar que se comporta de dicha manera ( escribe y lee) "sencillez". 
+Usando discos y usando ficheros.
+Linux monta los discos en su sistema como sifuerán un fichero más, la teoria de fichero se estudia en las carreras informáticas como
+lenguajes y algoritmos.
+Solo hay cuatro particiones en la forma anitgua.
+Comparar la forma antigua con la nueva, gastando el particionado basado en mbr solo hay cuatro posibilidades (solo 4 particiones).
+Al principio solo eran primarias, luego se inventaron otras más especial que se llamaba extendida y dentro de la extendida podias 
+crear muchas particiones más lógicas, ya no son primarias son lógicas.
+Exoste la partición adativa que es poner una particion raíz y nada más.
+Hay que ttener obligatoria mente una partición de intercambio llamada swap, que se monta en el raíz, esa particion los sistemas 
+linuz la necesitaban tener aparte y la utilizaban para simular que el ordenador tenia más memoria es lo que se llama mecanismo de memoria 
+virtual (simula que tienes más memoria de la que tienes en el ordenador, esa memoria adicional la saca de un fichero gordo en el disco. Un 
+fichero al que nunca jamás un usuraio puede tocar, eso solo lo toca el núcleo del sistema operativo) 
+El nucleo es el que tiene los maximo privilegios de acceso.
+Como no se podia evitar que el usuario no tocara ese fichero linux decidió que esa partición iba aparte, para mejorar el rendimiento y 
+para que ni si queira el super usuario lo pudiera tocar.
+Windows lo llama archivo de intercambio de paginas. 
+Windows también tiene el sistema de ampliar la memoria y se llama pagesis (se encuntra en el archivo raiz),
+ el tamaño recomendado es dependindo 
+de la cantidad de memoria que hay. Asta que no se haga un operación no se sabra si se requiere el pagesis o no. 
+Hay que hacer una operación de monitorización y reajustar la memoria virtual según el uso de las aplicaciones.
+Normalmente lo hace el sistema de manera automática.
+Si la base de datos va toda a memoria vale, pero si hay muchos usuarios realizando muchas peticiones todo tiene 
+que estar subido a memoria, y cuando se agota la memoria, empieza el intercambio de paginas de memoria, por eso windows 
+le llama pag.file.sis. Ese bloque de memoria que puede subirse del disco a la memoria y procesarse o se puede liberar 
+de la memoria ram y meterse en el archivo del disco.Todo eso tiene consecuencias desastrosas en el rendimiento.
+Cuando se gasta el archivo de memoria virtual, las cosas van muy lentas, el disco duro va a tope de uso. 
+Y entoces entra la fatiga mecanica, etc 
+Opciones es comprar memorias o sino cambiar la placa base o pensar en otros modelos de computación.
+Nace el concepto de supercomputador basado en cluster de ordenadores superbaratos (en inglés).
+Ni la actualización 18.04 ni la 20.04 no sabrian una partición especifica de intercambio llamada -swap.
+Es interestante que nuestra máquina lo tenga.
+Si cogemos un disco ssd (solid state device)...
+El disco duro es convenietne usarlo en lecturas rápidas pero no es convneientes en escrituras constantes porque se rompen muy rapido, 
+tiene fatiga a la 
+hora de grabar, pero para ller suelen ser muy rapidos, pero para el sistema operativo vam ideal porque lo instalas una sola vez, cada semana te pueden 
+llegar una sola actualización pequeñita cada dos años una actualización completa, pero no estas constantemente grabando. 
+Si hay algo que tiene que estar grabandose constante mente la estrategia que tiene que tener el sistema operativo es no grabar siempre en el mismo grado, sino 
+que en el mismo disco y volver a grabar en todo el espacio. 
+El propo disco tiene un tabla que el sistema operativo consulta el espacio libre que hay, da igual donde este porque no hay aguja que mover. 
+Todos los archivps estan diseprsos.
+Si en un disco mecanico llega a temperatura elevada se gripa, si reciben golpes las cabezas  de lectura, entre que estan calietens y el golpe la lectura se 
+hace más débil la grabación se realiza fuera del cilindro, y eso hará que las lecturas sean pobres, grabar graban pero la lectura no la hace correctamente 
+Pero el aterrije de una cabeza de lectura sobre la superficie loatetica no es un error es una destroza permanete y arranca en primer lugar todo lo que pilla e
+emergido en el disco y como los datos se van gurandado uno detás de otro se esta cargando desde le mismo fichero un monton de datos. Si estubiera distribuido, si falla 
+un bloque se borran un monton de cosas pero no desde el mismo archio. 
+Cuando los ordenadores no tenian memoria sufieciente se colgaban es decir no podian avanzar,   
+Realización de clonezilla Maria27-10-2020.img
+
+ 

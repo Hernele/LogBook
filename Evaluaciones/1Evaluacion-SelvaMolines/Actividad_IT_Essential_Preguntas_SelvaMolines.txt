@@ -1,0 +1,10 @@
+﻿Hernán Selva Molines.
+
+Genera un texto plano con al menos 5 preguntas de esas que salen en mis cuestionarios y odias.,
+
+1-  ¿Cuáles son los factores que hay que tener en cuenta a la hora de elegir un buen chasis?
+2- Tenemos un circuito simple con una lamparilla de 10 V conectada a
+Una batería de 10 V. La salida de energía de la lamparilla es de 200 W, sabiendo esto, calcúlame la corriente en Amperios.
+3-  ¿Cuáles son los factores de forma para los motherboards?
+4-   Hágame una lista de cuáles son las guías generales de seguridad
+5-  Enumérame y explícame cuales son los tipos de variaciones de energía de CA pueden provocar pérdida de datos o fallas de hardware
