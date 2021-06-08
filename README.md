@@ -1,8 +1,12 @@
-# personalprofile
-Un ejemplo facilón de documentación web colaborativa mediante Git y GitHub para 1ºSTI.
+Hernán Selva
 
-Lee "anotaciones_tarea_profile.txt" y sigue las instrucciones para modificar las referencias y datos.
-Prepara las imágenes con Irfanview, Gimp u otro y tu página personal con el editor de texto html.
-Añade tu nombre y apellidos en la lista de "index.html" respetando el orden alfabético.
-Al clonar el repositorio en tu disco podrás recorrer las fichas de los compañeros, navegando "index.html".
-# LogBook
+
+Un repositorio es como una carpeta para tu proyecto. El repositorio de tu proyecto contiene todos 
+los archivos de tu repositorio y almacena el historial de revisión de cada archivo. 
+También puedes debatir y administrar el trabajo de tu proyecto dentro del repositorio.
+Este repositorio consiste en una carpeta con el LogBook de la 3	 tercera Evaluación.
+
+Puedes ser propietario de repositorios individualmente o puedes compartir la propiedad de los 
+repositorios con otras personas en una organización.
+
+Puedes restringir quién tiene acceso a un repositorio seleccionando la visibilidad del mismo. 
